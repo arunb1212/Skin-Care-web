@@ -2,6 +2,9 @@ import React from 'react'
 import Nav from './Nav'
 import Skincare from './Skincare'
 import ProductCard from './ProductCard'
+import Imgcard from './Imgcard'
+import Cate from './Cate'
+import Faq from './Faq'
 
 const Hero = () => {
   return (
@@ -55,13 +58,23 @@ your skin.</span>
             <img className='w-[60px] h-[60px]' src="./src/assets/right arrow 1.svg" alt="" />
         </div>
     </div>
-    <div className='flex gap-[20px]'>
+    <div className='flex  gap-[20px]'>
             <ProductCard img={"./src/assets/filip-knezevic-k-ElrinXWAk-unsplash 2.png"}/>
     <ProductCard img={"./src/assets/cierra-henderson-LWIQp-0_b98-unsplash 1.png"}/>
     <ProductCard img={"./src/assets/mathilde-langevin-p3O5f4u95Lo-unsplash 1.png"}/>
+
     </div>
 
 
+</div>
+<div>
+    <Imgcard/>
+</div>
+<div>
+    <Cate/>
+</div>
+<div>
+    <Faq/>
 </div>
     </div>
   )
