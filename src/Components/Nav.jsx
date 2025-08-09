@@ -4,7 +4,7 @@ const Nav = () => {
   return (
     <div className='w-100%'>
         <div className=' flex w-full justify-between items-center px-[100px] '>
-            <h1>SKINCARE</h1>
+            <h1 className='text-[30px] font-[400]'>SKINCARE</h1>
             <ul className='flex gap-[30px]'>
                 <li>All Products</li>
                 <li>Serum</li>

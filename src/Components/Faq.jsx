@@ -74,17 +74,17 @@ const Faq = () => {
           </h2>
 
           {/* Accordion list */}
-          <div className="flex flex-col gap-4 duration-300 linear ease-in">
+          <div className="flex flex-col mt-[-15px] gap-4 duration-300 linear ease-in">
             {faqs.map((item) => {
               const isOpen = item.id === openId;
               return (
                 <div
                   key={item.id}
-                  className={`rounded-xl border border-[#2D3B36]/20 overflow-hidden bg-white/60`}
+                  className={`rounded-[5px] border border-[#2D3B36]/20 overflow-hidden bg-white/60`}
                 >
                   <button
                     type="button"
-                    className="w-full  flex items-center justify-between text-left px-6 py-5"
+                    className="w-[600px] h-[70px]  flex items-center justify-between text-left px-6 py-5"
                     onClick={() => toggle(item.id)}
                   >
                     <span className="text-[16px] text-[#2D3B36]">

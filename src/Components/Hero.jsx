@@ -5,6 +5,7 @@ import ProductCard from './ProductCard'
 import Imgcard from './Imgcard'
 import Cate from './Cate'
 import Faq from './Faq'
+import Footer from './Footer'
 
 const Hero = () => {
   return (
@@ -75,6 +76,9 @@ your skin.</span>
 </div>
 <div>
     <Faq/>
+</div>
+<div className='mt-[100px]'>
+    <Footer/>
 </div>
     </div>
   )
