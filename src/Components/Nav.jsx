@@ -15,7 +15,7 @@ const Nav = () => {
                <img className='h-[40px] w-[40px] p-[10px]  rounded-[50%] bg-[#F8FEE5]' src="./src/assets/bag-4-svgrepo-com 1.svg" alt="" /> 
                <h1>Cart(1)</h1>
                <img className='h-[40px] w-[40px] p-[10px]  rounded-[50%] bg-[#F8FEE5]' src="./src/assets/heart-svgrepo-com (1) 1.svg" alt="" />
-               <img className='h-[40px] w-[40px] p-[10px]  rounded-[50%] bg-[#F8FEE5]' src="./src/assets/person 1.svg" alt="" />
+               <img className='h-[40px] w-[40px] p-[10px]  rounded-[50%] bg-[F8FEE5]' src="./src/assets/person 1.svg" alt="" />
             </div>
         </div>
     </div>
