@@ -16,7 +16,7 @@ const Hero = () => {
         </div>
  
 <div className='flex mt-[100px] px-[100px] justify-between items-center'>
-    <p className='font-[400] text-[20px]'>...........Transform your skincare  <br /> routine with premium products that <br /> restore, protect, and enhance your <br /> nautural glow every day.</p>
+    <p className='font-thin text-[20px] indent-[95px]'>Transform your skincare  <br /> routine with premium products that <br /> restore, protect, and enhance your <br /> nautural glow every day.</p>
     <div className='w-[398px] leading-[80px] h-[253px] '>
     <h1 className='text-[100px] text-bold '>GLOW
     NATUR-ALLY</h1>
